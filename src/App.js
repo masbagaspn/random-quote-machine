@@ -39,7 +39,7 @@ function App() {
         <wrapper id='quote-box'>
           <h3 id='text' style={
             {color: randomColor, transition: '1s ease-in'}
-          }>{quote}</h3>
+          }>{`"${quote}"`}</h3>
           <p id='author' style={
             {color: randomColor, transition: '1s ease-in'}
           }>- {author}</p>
